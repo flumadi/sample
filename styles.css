@@ -1,0 +1,77 @@
+body {
+    background-color: #4B3621; /* Dark brown */
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    background-color: #333; /* Dark grey */
+    border: 1px solid #4B3621; /* Dark brown border */
+}
+
+h1, h2 {
+    text-align: center;
+    color: #FFFFFF; /* White text */
+}
+
+.form-container {
+    background-color: #3C2F2F; /* Darker brown */
+    border: 1px solid #8B4513; /* Dark brown */
+    padding: 20px;
+    margin: 20px 0;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #8B4513; /* Dark brown */
+    background-color: #4B3621; /* Dark brown */
+    color: white;
+}
+
+button {
+    background-color: #8B4513; /* Dark brown */
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5C4033; /* Slightly lighter dark brown */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #8B4513; /* Dark brown */
+    color: white;
+    padding: 10px;
+}
+
+td {
+    background-color: #4B3621; /* Dark brown */
+    color: white;
+    padding: 10px;
+}
+
+a {
+    color: #FFA07A; /* Light brown for contrast */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #FF8C00; /* Darker light brown */
+}
